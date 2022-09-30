@@ -16,3 +16,10 @@
 # true
 
 p "Enter one word"
+palin = gets.chomp
+
+if (palin.downcase == palin.downcase.reverse)
+  p "true"
+else
+  p "false"
+end    
